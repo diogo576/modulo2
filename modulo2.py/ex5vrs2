@@ -1,0 +1,16 @@
+#calcular a media de 10 alunos e informar quantas notas são positivas e quantas são negativas 
+
+n_alunos = 10 
+
+soma = 0
+for _ in range(n_alunos):
+    nota = int(input("introduza uma nota"))
+    soma =soma + nota 
+#contar se a nota é positiva 
+if nota>=10:
+    contar_positiva = contar_positiva +1 
+
+media = soma / n_alunos 
+print(round(media,2))
+print("nº de positivas",contar positivas)
+print("nº de negativas",contar negativas)

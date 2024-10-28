@@ -1,0 +1,18 @@
+"""
+programa para somar todos os valores inteiros entre x e y 
+o utilizador é que indica os valores para y e para x
+"""
+x = int(input("introduza o primeiro valor a somar"))
+y =int(input("introduza o segundo valor a somar "))
+
+if x > y:
+    #trocar o valor das variaveis 
+    t = x
+    x = y
+    y = t
+
+soma = 0
+for i in range(x,y+1)
+    soma = soma + i
+
+print(soma)
